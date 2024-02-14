@@ -11,6 +11,7 @@ import ColorScreen from "./src/screens/ColorScreen";
 import SquareScreen from "./src/screens/SquareScreen";
 import TextScreen from "./src/screens/TextScreen";
 import BoxScreen from "./src/screens/BoxScreen";
+import DonutTestScreen from "./src/screens/DonutTestScreen";
 const navigator = createStackNavigator(
   {
     Home: HomeScreen,
@@ -21,10 +22,11 @@ const navigator = createStackNavigator(
     Color: ColorScreen,
     Square: SquareScreen,
     Text: TextScreen,
-    Box: BoxScreen
+    Box: BoxScreen,
+    Donut: DonutTestScreen,
   },
   {
-    initialRouteName: "Home",
+    initialRouteName: "Donut",
     defaultNavigationOptions: {
       title: "App",
     },
