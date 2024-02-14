@@ -10,6 +10,7 @@ const App = () => {
 
   const inputArr = [15, 40, 20, 10, 15];
   const colorsArr = ["#F1FADA", "#9AD0C2", "#2D9596", "#BBC3A4", "#265073"];
+
   function calculateDonutPercentage(inputArr) {
     let cumulativeOffset = 100;
     return inputArr.map((inputPerc, index) => {
@@ -31,7 +32,7 @@ const App = () => {
         fill="transparent"
         strokeWidth={width}
         strokeDasharray={circleCircumference}
-        strokeDashoffset={offset - 5}
+        strokeDashoffset={offset}
         // strokeLinecap="round"
       />
     );

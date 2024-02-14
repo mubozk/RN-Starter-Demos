@@ -54,6 +54,12 @@ const HomeScreen = ({ navigation }) => {
           navigate("Box");
         }}
       />
+      <Button
+        title="go to donut"
+        onPress={() => {
+          navigate("Donut");
+        }}
+      />
     </View>
   );
 };

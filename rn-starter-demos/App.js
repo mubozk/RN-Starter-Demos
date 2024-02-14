@@ -26,7 +26,7 @@ const navigator = createStackNavigator(
     Donut: DonutTestScreen,
   },
   {
-    initialRouteName: "Donut",
+    initialRouteName: "Home",
     defaultNavigationOptions: {
       title: "App",
     },
